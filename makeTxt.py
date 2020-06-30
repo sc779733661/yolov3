@@ -1,4 +1,4 @@
-# 读取标签列表，分比例写入train,val的 .txt文件
+# 读取图像列表，分比例写入train,val的 .txt文件
 import os
 import random
 
