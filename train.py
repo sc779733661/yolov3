@@ -8,6 +8,7 @@ import test  # import test.py to get mAP after each epoch
 from models import *
 from utils.datasets import *
 from utils.utils import *
+from visdom import Visdom
 
 mixed_precision = True
 try:  # Mixed precision training https://github.com/NVIDIA/apex
